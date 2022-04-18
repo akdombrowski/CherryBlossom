@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CraftingPieces>
+    <CraftingPiece id="cherry_blossom_blade" name="{=cherry.blossom.blade}Cherry Blossom Blade" tier="5" piece_type="Blade" mesh="cleaver_blade_2" culture="Culture.sturgia" length="174" weight="0.1">
+        <BladeData stack_amount="3" physics_material="metal_weapon" body_name="bo_sword_one_handed" holster_mesh="sturgian_noble_blade_4_scabbard_4">
+            <Swing damage_type="Cut" damage_factor="100" />
+        </BladeData>
+        <Flags>
+            <Flag name="BonusAgainstShield" />
+            <Flag name="Civilian" type="ItemFlags" />
+            <Flag name="CanDismount" />
+        </Flags>
+        <StatContributions armor_bonus="100" handling_bonus="100" swing_damage_bonus="100" swing_speed_bonus="20" />
+        <Materials>
+            <Material id="IronOre" count="1" />
+        </Materials>
+    </CraftingPiece>
+
+    <CraftingPiece id="cherry_blossom_guard" name="{=cherry.blossom.guard}Cherry Blossom Guard" tier="5" piece_type="Guard" mesh="sturgian_guard_10" culture="Culture.sturgia" length="13.718" weight="0.10">
+        <BuildData next_piece_offset="45" />
+        <Flags>
+            <Flag name="BonusAgainstShield" />
+            <Flag name="CanPenetrateShield" />
+            <Flag name="CanKnockDown" />
+            <Flag name="CanBlockRanged" />
+            <Flag name="CanCrushThrough" />
+        </Flags>
+        <StatContributions armor_bonus="100" handling_bonus="100" swing_damage_bonus="100" swing_speed_bonus="20" />
+        <Materials>
+            <Material id="IronOre" count="1" />
+        </Materials>
+    </CraftingPiece>
+
+    <CraftingPiece id="cherry_blossom_grip" name="{=cherry.blossom.grip}Cherry Blossom Grip" tier="5" piece_type="Handle" mesh="empire_grip_5" culture="Culture.empire" length="25" weight="0.1">
+        <BuildData piece_offset="0" next_piece_offset="10" previous_piece_offset="0.8" />
+        <StatContributions armor_bonus="100" handling_bonus="100" swing_damage_bonus="100" swing_speed_bonus="20" />
+        <Materials>
+            <Material id="IronOre" count="1" />
+        </Materials>
+    </CraftingPiece>
+
+    <CraftingPiece id="cherry_blossom_pommel" name="{=cherry.blossom.pommel}Cherry Blossom Pommel" tier="5" piece_type="Pommel" mesh="vlandian_pommel_6" culture="Culture.vlandia" length="15.7" weight="0.1">
+        <StatContributions armor_bonus="100" handling_bonus="100" swing_damage_bonus="100" swing_speed_bonus="20"/>
+        <Materials>
+            <Material id="IronOre" count="1" />
+        </Materials>
+    </CraftingPiece>
+</CraftingPieces>

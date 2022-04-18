@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Module>
+    <Name value="Cherry Blossom"/>
+    <Id value="CherryBlossom"/>
+    <Version value="v1.0.0.0"/>
+    <SingleplayerModule value="true"/>
+    <MultiplayerModule value="false"/>
+    <DependedModules>
+        <!--
+	<DependedModule Id="Native" DependentVersion="e1.7.1" />
+	<DependedModule Id="SandBoxCore" DependentVersion="e1.7.1" />
+	<DependedModule Id="Sandbox" DependentVersion="e1.7.1" />
+	<DependedModule Id="StoryMode" DependentVersion="e1.7.1" />
+-->
+    </DependedModules>
+    <SubModules>
+    </SubModules>
+    <Xmls>
+        <XmlNode>
+            <XmlName id="Items" path="items"/>
+            <IncludedGameTypes>
+                <GameType value = "Campaign"/>
+                <GameType value = "CampaignStoryMode"/>
+                <GameType value = "CustomGame"/>
+            </IncludedGameTypes>
+        </XmlNode>
+        <XmlNode>
+            <XmlName id="CraftingPieces" path="crafting_pieces"/>
+            <IncludedGameTypes>
+                <GameType value = "Campaign"/>
+                <GameType value = "CampaignStoryMode"/>
+                <GameType value = "CustomGame"/>
+            </IncludedGameTypes>
+        </XmlNode>
+        <XmlNode>
+            <XmlName id="WeaponDescriptions" path="weapon_descriptions"/>
+        </XmlNode>
+        <XmlNode>
+            <XmlName id="CraftingTemplates" path="crafting_templates"/>
+            <IncludedGameTypes>
+                <GameType value = "Campaign"/>
+                <GameType value = "CampaignStoryMode"/>
+                <GameType value = "CustomGame"/>
+            </IncludedGameTypes>
+        </XmlNode>
+    </Xmls>
+</Module>

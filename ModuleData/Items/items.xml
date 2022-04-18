@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Items>
+
+    <CraftedItem id="cherry_blossom" name="{=cherry.blossom}Cherry Blossom" crafting_template="CherryBlossom" culture="Culture.battania">
+        <Pieces>
+            <Piece id="cherry_blossom_blade" Type="Blade" scale_factor="100" />
+            <Piece id="cherry_blossom_guard" Type="Guard" scale_factor="100" />
+            <Piece id="cherry_blossom_grip" Type="Handle" scale_factor="100" />
+            <Piece id="cherry_blossom_pommel" Type="Pommel" scale_factor="100" />
+        </Pieces>
+    </CraftedItem>
+</Items>

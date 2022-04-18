@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8" ?>
+
+<WeaponDescriptions>
+    <WeaponDescription id="CherryBlossomSword" weapon_class="TwoHandedSword" item_usage_features="twohanded:block:swing">
+        <WeaponFlags>
+            <WeaponFlag value="MeleeWeapon"/>
+            <WeaponFlag value="BonusAgainstShield"/>
+            <WeaponFlag value="CanPenetrateShield"/>
+            <WeaponFlag value="CanDismount"/>
+            <WeaponFlag value="MultiplePenetration"/>
+            <WeaponFlag value="CanKnockDown"/>
+            <WeaponFlag value="CanBlockRanged"/>
+            <WeaponFlag value="CanCrushThrough"/>
+        </WeaponFlags>
+        <AvailablePieces>
+            <AvailablePiece id="cherry_blossom_blade"/>
+            <AvailablePiece id="cherry_blossom_grip"/>
+            <AvailablePiece id="cherry_blossom_guard"/>
+            <AvailablePiece id="cherry_blossom_pommel"/>
+        </AvailablePieces>
+    </WeaponDescription>
+</WeaponDescriptions>
